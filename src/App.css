@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.save-segment-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  text-align: left;
+}
+
+.segment-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.segment-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.legend-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.user-trait {
+  background-color: green;
+}
+
+.group-trait {
+  background-color: red;
+}
+
+.blue-box {
+  background: lightblue;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.schema-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.schema-row select {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.add-new-schema, .remove-schema {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-new-schema {
+  color: blue;
+}
+
+.remove-schema {
+  color: red;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-button, .cancel-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  border: none;
+}
